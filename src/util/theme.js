@@ -115,7 +115,7 @@ export default {
       padding: '0 30px',
       position: 'relative',
     },
-
+ 
     deniedIcon:{
       margin: '45px auto 0px auto',
       width: '80px',
@@ -123,7 +123,7 @@ export default {
     },
 
     deniedPaper:{
-      width: "450px",
+      maxWidth: "450px",
       textAlign: "center",
       padding: '0.1px 20px 80px 20px',
       margin: 'auto'
@@ -145,7 +145,7 @@ export default {
     // F
 
     form: {
-      textAlign: 'center'
+      textAlign: 'center',
     },
 
     // G
@@ -231,11 +231,12 @@ export default {
     },
 
     locationPaper:{
-      width: "450px",
+      maxWidth: "450px",
       textAlign: "center",
       padding: '0.5px 20px 75px 20px',
       margin: 'auto'
     },
+    
 
     // M
 
@@ -278,11 +279,11 @@ export default {
 
     textField: {
       margin: '10px auto 10px auto',
-      width: '350px'
+      width: '350px',
     },
 
     thePaper: {
-      width: "450px",
+      maxWidth: "450px",
       textAlign: "center",
       padding: '0.5px 20px 75px 20px',
       marginTop: "20vh",

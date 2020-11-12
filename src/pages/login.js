@@ -63,8 +63,8 @@ class login extends Component {
     return (
       <div style={{position: 'fixed', height: '100%', width: '100%', backgroundSize: 'cover', backgroundImage: `url(${Background})`}}>
       <Grid container className= {classes.form}>
-        <Grid item sm/>
-        <Grid item sm style={{justifyContent: 'center', position: 'center'}}>
+        <Grid item xs/>
+        <Grid item xs style={{justifyContent: 'center', position: 'center'}}>
           <Paper className={classes.thePaper} >
             
               <Typography variant="h3" className={classes.pageTitle}>
@@ -125,7 +125,7 @@ class login extends Component {
           </Paper>
 
           </Grid>
-        <Grid item sm/>
+        <Grid item xs/>
         
       </Grid>
       </div>

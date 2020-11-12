@@ -32,7 +32,7 @@ const styles = (theme) => ({
         marginTop: "100px"
     },
     infoPaper:{
-        width: "450px",
+        maxWidth: "450px",
         minHeight: '600px',
         textAlign: "center",
         padding: '0.1px 20px 80px 20px',
