@@ -20,13 +20,10 @@ The app requires a google maps API key to be able to function.
 Change the 'GOOGLE_MAPS_KEY' to your own api key in picpinit-master/src/pages/home.js:
 
 ```bash
-line googleMapURL: "https://maps.googleapis.com/...key=GOOGLE_MAPS_API_KEY&language=en",
+line 47: googleMapURL: "https://maps.googleapis.com/...key= GOOGLE_MAPS_API_KEY &language=en",
+line 113:  fetch(`https://maps.googleapis.com/... &key= GOOGLE_MAPS_API_KEY &language=en`)
 
 ```
 If you don't have a API key, you can get one at https://cloud.google.com/maps-platform/
 
-To be able to 
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
+### Enjoy those memories!
