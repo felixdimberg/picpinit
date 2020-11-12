@@ -1,4 +1,4 @@
-#PICPINIT
+# PICPINIT
 
 Picpinit is a social media app where you upload pictures to a album based ona location. The idea is to together create albums for all your memories. 
 
