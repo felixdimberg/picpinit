@@ -44,7 +44,7 @@ const styles = (theme) => ({
 // Creates google maps 
 const MyMapComponent = compose(
  withProps({
-   googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCkcAsZmQghbuG8s4O5E5v9eBYngK3R62s&language=en",
+   googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=GOOGLE_MAPS_API_KEY&language=en",
    loadingElement: <div style={{ height: `100%` }} />,
    containerElement: <div style={{ height: `100%` }} />,
    mapElement: <div style={{ height: `100%` }} />,
@@ -110,7 +110,7 @@ class Home extends Component {
      open: true
    })
 
-   fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.state.latitude},${this.state.longitude}&key=AIzaSyCkcAsZmQghbuG8s4O5E5v9eBYngK3R62s&language=en`)
+   fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.state.latitude},${this.state.longitude}&key=GOOGLE_MAPS_API_KEY&language=en`)
   .then(response => response.json())
   .then(results => {
     address = results.results[0].formatted_address
