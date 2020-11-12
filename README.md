@@ -1,13 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#PICPINIT
 
-## Available Scripts
+Picpinit is a social media app where you upload pictures to a album based ona location. The idea is to together create albums for all your memories. 
 
-In the project directory, you can run:
+### Installation
 
-### `npm start`
+The app require variuos dependencies. Install these to make it work. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install foobar
+```
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
