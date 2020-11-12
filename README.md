@@ -2,13 +2,41 @@
 
 Picpinit is a social media app where you upload pictures to a album based on a location. The idea is to together create albums for all your memories. 
 
-### Installation
+## Installation
+To start the webapp you first need to install all of the following dependencies on your computer:
 
-It is a React.js app and will need react-scripts to be able to run.
-To start the webapp run he command lines:
+### Dependencies
 
 ```bash
+// React
+npm install react
+npm install react-dom
+npm install react-google-maps
+npm install react-redux
 npm install react-scripts
+
+//Redux
+npm install redux
+npm install redux-thunk
+  
+// Material UI 
+npm install @material-ui/icons
+npm install @material-ui/styles
+npm install @material-ui/core
+
+//Other
+npm install notistack
+npm install recompose
+
+// with yarn
+yarn add @material-ui/icons
+npm install react-scripts
+```
+### Run
+
+It is a React.js app and will need react-scripts to be able to run.
+
+```
 npm start
 ```
 
