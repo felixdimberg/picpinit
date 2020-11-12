@@ -17,10 +17,14 @@ You will then access the webapp at http://localhost:3000
 ### Google maps API
 
 The app requires a google maps API key to be able to function. 
+Change the 'GOOGLE_MAPS_KEY' to your own api key in picpinit-master/src/pages/home.js:
 
 ```bash
+line googleMapURL: "https://maps.googleapis.com/...key=GOOGLE_MAPS_API_KEY&language=en",
 
 ```
+If you don't have a API key, you can get one at https://cloud.google.com/maps-platform/
+
 To be able to 
 
 The page will reload if you make edits.<br />
