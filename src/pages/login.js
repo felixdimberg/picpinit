@@ -61,7 +61,8 @@ class login extends Component {
     const { classes, UI: { loading }} = this.props;
     const { errors } = this.state;
     return (
-      <div style={{position: 'fixed', height: '100%', width: '100%', backgroundSize: 'cover', backgroundImage: `url(${Background})`}}>
+      <div style={{backgroundAttachment:'fixed',backgroundSize: 'cover',
+          backgroundImage: `url(${Background})`}}>
       <Grid container className= {classes.form}>
         <Grid item xs/>
         <Grid item xs style={{justifyContent: 'center', position: 'center'}}>
